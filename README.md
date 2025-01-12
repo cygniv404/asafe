@@ -1,7 +1,7 @@
 # TypeScript, Fastify, Prisma, AWS S3 and Monorepo
 
 [![CI Pipeline](https://github.com/cygniv404/asafe/actions/workflows/ci.yml/badge.svg)](https://github.com/cygniv404/asafe/actions/workflows/ci.yml)
-
+refer to the [Live Demo](http://51.20.142.149:3000/) deployed on AWS.
 ---
 
 ## Overview
@@ -148,3 +148,11 @@ This project is a **monorepo** setup for managing a Fastify-based API and a Pris
   yarn test
   ```
 you can review the tests on the CI Pipeline.
+
+# Next Steps
+
+- Integration Tests (e.g APIs)
+- Automated CD pipeline (e.g AWS CodePipeline)
+- Dockerized Modular services (e.g utils, database)
+- GraphQL API for inter service communication (e.g hasura GraphQL)
+- Event-driven architecture using a message broker (e.g Nats)
