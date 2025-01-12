@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Specifies the output directory for compiled files
+    "rootDir": "./src", // Specifies the root folder containing TypeScript source files, excluding the dist directory
+    "module": "commonjs", // Use CommonJS modules for Node.js
+    "target": "es2019", // JavaScript target version
+    "declaration": true, // Generates `.d.ts` type definition files
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES modules
+    "skipLibCheck": true // Skip checking declaration files
+  },
+  "include": ["src"], // Include all files in the "src" folder
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and the output directory
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@asafe/api",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@asafe/db": "0.1.0",
+    "@asafe/utils": "0.1.0",
+    "@aws-sdk/client-s3": "^3.726.1",
+    "@fastify/autoload": "^6.0.3",
+    "@fastify/jwt": "^9.0.3",
+    "@fastify/multipart": "^9.0.2",
+    "@fastify/websocket": "^11.0.2",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "fastify-autoload": "^3.13.0",
+    "fastify-plugin": "^5.0.1"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node dist/api/src/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/ws": "^8.5.13",
+    "ts-node-dev": "^2.0.0"
+  }
+}

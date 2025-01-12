@@ -1,0 +1,15 @@
+{
+  "name": "@asafe/db",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "prisma": "^6.2.1"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && prisma generate",
+    "migration:create": "npx prisma migrate dev",
+    "migration:apply": "npx prisma migrate deploy"
+  }
+}

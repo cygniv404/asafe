@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {
+      "@asafe/utils": ["packages/utils/src"],
+      "@asafe/api": ["packages/api/src"],
+      "@asafe/db": ["packages/services/database/src"]
+    },
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
