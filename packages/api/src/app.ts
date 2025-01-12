@@ -20,7 +20,7 @@ const createApp = async () => {
         description: "API documentation for the application",
         version: "1.0.0",
       },
-      host: `${process.env.AWS_HOST}:${process.env.PORT}`,
+      host: `${process.env.HOST}:${process.env.PORT}`,
       schemes: ["http"],
       consumes: ["application/json"],
       produces: ["application/json"],
